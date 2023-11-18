@@ -332,8 +332,8 @@ function isPowerOfTwo(x) {
  *   0 => 0
  *   Math.PI / 2 => 1
  */
-function getSine(/* num */) {
-  throw new Error('Not implemented');
+function getSine(x) {
+  return Math.sin(x);
 }
 
 /**
