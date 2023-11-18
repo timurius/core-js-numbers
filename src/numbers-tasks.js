@@ -347,8 +347,8 @@ function getSine(x) {
  * 255, 16 => 'ff'
  * 2, 2    => '10'
  */
-function numberToStringInBase(x, radix) {
-  return x.toString(radix);
+function numberToStringInBase(x, base) {
+  return x.toString(base);
 }
 
 /**
